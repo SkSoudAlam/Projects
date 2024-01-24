@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    outline-color: black;
+    color: white;
+
+}
+.heading2 {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para {
+    font-weight: bolder;
+    font-style: italic;
+
+}
+#slheading {
+    outline-color: white;
+    color: yellow;
+    font-family: monospace;
+}
+
+
