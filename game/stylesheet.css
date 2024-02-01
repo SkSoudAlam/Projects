@@ -1,0 +1,45 @@
+body {
+    background-color: green;
+    color: white;
+    animation-delay: 2ms;
+    margin: 4cm;
+    padding: 3cm;
+}
+.button {
+    background-color: red;
+    border-radius: 8px;
+    width: 2.5cm;
+    height: 1.5cm;
+    cursor: pointer;
+    border: white;
+    padding: 0.2cm;
+    margin: 0.2cm;
+    border:grid;
+    grid: 0.6cm;
+}
+.button:hover {
+    overflow: hidden;
+    opacity: 0.5;
+    color: white;
+    cursor: progress;
+}
+.button:active {
+    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0.3;
+}
+div {
+    font-weight: bolder;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.link {
+    color: white;
+}
+p {
+    color: white;
+    outline-color: violet;
+
+}
+main {
+    font-family: Arial, sans-serif;
+    color: purple;
+}

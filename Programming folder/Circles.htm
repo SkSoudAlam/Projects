@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculator</title>
+</head>
+<body>
+    <label for="radius">Radius:</label>
+    <input type="number" id="radius">
+    <br>
+    <button id="circumference">Calculate Circumference</button>
+    <button id="diameter">Calculate Diameter</button>
+    <button id="area">Calculate Area</button>
+
+    <script>
+        let radiusInput = document.getElementById('radius');
+        let circumferenceButton = document.getElementById('circumference');
+        let diameterButton = document.getElementById('diameter');
+        let areaButton = document.getElementById('area');
+
+        circumferenceButton.addEventListener('click', function() {
+            let radius = parseFloat(radiusInput.value);
+            alert(radius * 6.28);
+        });
+
+        diameterButton.addEventListener('click', function() {
+            let radius = parseFloat(radiusInput.value);
+            alert(radius * 2);
+        });
+
+        areaButton.addEventListener('click', function() {
+            let radius = parseFloat(radiusInput.value);
+            alert(radius * radius * 3.14);
+        });
+    </script>
+</body>
+</html>

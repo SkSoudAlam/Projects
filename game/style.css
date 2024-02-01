@@ -1,0 +1,22 @@
+main {
+    margin-left: 4cm;
+    padding-left: 4cm;
+}
+nav {
+    margin-left: 5cm;
+    padding-left: 4cm;
+}
+.button {
+    color: white;
+    align-content: center;
+    overflow: hidden;
+}
+#result {
+    color: white;
+}
+#computer-choice {
+    color: white;
+}
+#player-choice {
+    color: white;
+}
